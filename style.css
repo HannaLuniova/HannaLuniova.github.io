@@ -1,20 +1,20 @@
 :root {
     --padding-top: 20px;
 }
+
 body{
     background-color: rgb(221, 217, 217);
 }
+
 .A{
     width: 760px; 
     margin: 0 auto;
-}
-.content{
-    padding-top:var(--padding-top);
 }
 .B{
     border: 3px solid #355e75 ;
     border-radius: 20px;
 }
+
 .foto{
     float: left;
     margin: 10px 0px 10px 80px;
@@ -22,6 +22,7 @@ body{
     border: 3px solid #355e75 ;
     border-radius: 80px;
 }
+
 .text{
     color:#355e75;
     font-size: 80px;
@@ -31,6 +32,11 @@ body{
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.content{
+    padding-top:var(--padding-top);
+}
+
 .C {
     color: white;
     padding-left: 20px;
@@ -41,30 +47,34 @@ body{
     border: 3px solid #355e75 ;
     border-radius: 20px;
     background: #355e75;
-    
 }
+
+.I{
+    font-size:30px;
+}
+
 .D {
     font-family: Georgia, 'Times New Roman', Times, serif; 
     padding-left:20px;
     padding-top:var(--padding-top);
-    width: 425px;
+    width: 428px;
     height: 600px;
     float: left;
     border: 3px solid #355e75 ;
     border-radius: 20px;
 }
-.I{
-    font-size:30px;
-}
+
 .F{
     font-weight: 550;
     font-size:30px;
     color:  #355e75;
 }
+
 .list{
     color: black;
     padding-left: 10px;
 }
+
 a{
     text-decoration: none;
     color: white;
