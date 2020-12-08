@@ -1,5 +1,6 @@
 :root {
-    --padding-top: 20px;
+    --padding-top: 10px;
+    --filter:drop-shadow(1px 1px 1px rgb(163, 162, 162));
 }
 
 body{
@@ -9,10 +10,12 @@ body{
 .A{
     width: 760px; 
     margin: 0 auto;
+    filter: var(--filter);
 }
 .B{
     border: 3px solid #355e75 ;
     border-radius: 20px;
+    filter: var(--filter);
 }
 
 .foto{
@@ -21,23 +24,28 @@ body{
     width: 150px;
     border: 3px solid #355e75 ;
     border-radius: 80px;
+    filter: var(--filter);
 }
 
 .text{
     color:#355e75;
     font-size: 80px;
     font-weight: 700;
+    filter: var(--filter);
 }
 .text2{
+    filter: var(--filter);
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content{
     padding-top:var(--padding-top);
+    
 }
 
 .C {
+    filter: var(--filter);
     color: white;
     padding-left: 20px;
     padding-top: var(--padding-top);
@@ -54,10 +62,12 @@ body{
 }
 
 .D {
+    margin-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
+    filter: var(--filter);
     padding-left:20px;
     padding-top:var(--padding-top);
-    width: 428px;
+    width: 418px;
     height: 600px;
     float: left;
     border: 3px solid #355e75 ;
@@ -78,4 +88,14 @@ body{
 a{
     text-decoration: none;
     color: white;
+}
+
+.F:hover{
+    font-size:33px;
+    transition: 2s;
+}
+
+.I:hover{
+    font-size:33px;
+    transition: 2s;
 }
