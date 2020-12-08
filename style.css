@@ -6,12 +6,13 @@
 body{
     background-color: rgb(221, 217, 217);
 }
-
+/* размер блока шапка*/
 .A{
     width: 760px; 
     margin: 0 auto;
     filter: var(--filter);
 }
+/* рамка шапки*/
 .B{
     border: 3px solid #355e75 ;
     border-radius: 20px;
@@ -26,7 +27,7 @@ body{
     border-radius: 80px;
     filter: var(--filter);
 }
-
+/*оформление текста в шапке*/
 .text{
     color:#355e75;
     font-size: 80px;
@@ -38,12 +39,12 @@ body{
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
+ /*отступ от блока шапка*/
 .content{
     padding-top:var(--padding-top);
     
 }
-
+/*оформление левой колонки*/
 .C {
     filter: var(--filter);
     color: white;
@@ -56,11 +57,11 @@ body{
     border-radius: 20px;
     background: #355e75;
 }
-
+/*оформление заголовка в левой колонке*/
 .I{
     font-size:30px;
 }
-
+/*оформление правой колонки*/
 .D {
     margin-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -73,7 +74,7 @@ body{
     border: 3px solid #355e75 ;
     border-radius: 20px;
 }
-
+/*оформление заголовка в правой колонке*/
 .F{
     font-weight: 550;
     font-size:30px;
